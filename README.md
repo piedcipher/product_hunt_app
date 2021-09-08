@@ -6,7 +6,7 @@ Product Hunt App built using Product Hunt's API.
 
 - Clone this repo.
 - Get dependencies via `flutter pub get`.
-- Create a new application for using [Product Hunt's API](https://api.producthunt.com/v2/oauth/applications).
+- Create a [new application](https://api.producthunt.com/v2/oauth/applications) for using [Product Hunt's API](https://api.producthunt.com/v2/docs).
 - After creating that, create a **Developer Token**. Option to create that is available on the same page.
 - Open [api_key.dart](https://github.com/piedcipher/product_hunt_app/blob/master/lib/data/api/api_key.dart) and add the Developer Token:
 ```dart
