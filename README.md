@@ -14,6 +14,35 @@ Product Hunt App built using Product Hunt's API.
 const String token = 'bearer <PUT_DEVELOPER_TOKEN_HERE>';
 ```
 
+## Features
+
+- Browse today's posts in the Home Page.
+- Today's posts are cached for offline viewing.
+- Browse specific day's posts.
+- View comments on any post.
+
+## SDK
+
+- :blue_heart: [Flutter](https://flutter.dev)
+
+## Packages/Plugins
+
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+- [flutter](https://pub.dev/packages/flutter)
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+- [internet_connection_checker](https://pub.dev/packages/internet_connection_checker)
+- [intl](https://pub.dev/packages/intl)
+- [json_annotation](https://pub.dev/packages/json_annotation)
+- [path](https://pub.dev/packages/path)
+- [path_provider](https://pub.dev/packages/path_provider)
+- [retrofit](https://pub.dev/packages/retrofit)
+- [build_runner](https://pub.dev/packages/build_runner)
+- [flutter_test](https://pub.dev/packages/flutter_test)
+- [json_serializable](https://pub.dev/packages/json_serializable)
+- [retrofit_generator](https://pub.dev/packages/retrofit_generator)
+- [very_good_analysis](https://pub.dev/packages/very_good_analysis)
+
+
 ## Getting Started
 
 A few resources to get you started if this is your first Flutter project:
