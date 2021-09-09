@@ -21,13 +21,10 @@ class PostLoadingState extends PostState {
 /// success state for home/specific day page.
 class PostSuccessState extends PostState {
   /// constructs state.
-  const PostSuccessState(this.posts, {this.writeCache = false});
+  const PostSuccessState(this.posts);
 
   /// post fetched from API.
   final List<Post> posts;
-
-  /// flag to write or not write cache.
-  final bool writeCache;
 }
 
 /// error state for home/specific day page.

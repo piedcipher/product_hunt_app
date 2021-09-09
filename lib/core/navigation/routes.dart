@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:product_hunt_app/models/post.dart';
-import 'package:product_hunt_app/presentation/pages/home/home_page.dart';
 import 'package:product_hunt_app/presentation/pages/comments/comments_page.dart';
+import 'package:product_hunt_app/presentation/pages/home/home_page.dart';
 import 'package:product_hunt_app/presentation/pages/specific_day/specific_day_page.dart';
 
 /// Routes for Product Hunt App

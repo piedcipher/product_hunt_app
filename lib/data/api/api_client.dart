@@ -1,7 +1,7 @@
-import 'package:retrofit/retrofit.dart';
 import 'package:dio/dio.dart' hide Headers;
-import 'package:product_hunt_app/models/post.dart';
 import 'package:product_hunt_app/models/comment.dart';
+import 'package:product_hunt_app/models/post.dart';
+import 'package:retrofit/retrofit.dart';
 
 part 'api_client.g.dart';
 

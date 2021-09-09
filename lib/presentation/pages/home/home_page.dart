@@ -1,15 +1,12 @@
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:path/path.dart' as p;
 import 'package:product_hunt_app/blocs/home/post_bloc.dart';
 import 'package:product_hunt_app/blocs/home/post_event.dart';
 import 'package:product_hunt_app/blocs/home/post_state.dart';
-import 'package:product_hunt_app/core/constants/constants.dart';
 import 'package:product_hunt_app/core/navigation/routes.dart';
 import 'package:product_hunt_app/data/api/api_client.dart';
 import 'package:product_hunt_app/data/api/api_key.dart';
@@ -58,12 +55,6 @@ class _HomePageState extends State<HomePage> {
                   SnackBar(
                     content: Text(state.error),
                   ),
-                );
-              } else if (state is PostSuccessState && state.writeCache) {
-                await File(
-                  p.join(context.read<Directory>().path, todaysPostsTxtFile),
-                ).writeAsString(
-                  jsonEncode(state.posts.map((e) => e.toJson()).toList()),
                 );
               }
             },
